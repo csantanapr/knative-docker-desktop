@@ -3,6 +3,9 @@
 set -eo pipefail
 set -u
 
+echo -e "Switching to docker-desktop kubectl context"
+kubectl config use-context docker-desktop
+
 echo -e "🍿 Installing Knative Serving and Eventing ... \033[0m"
 STARTTIME=$(date +%s)
 curl -sL https://raw.githubusercontent.com/csantanapr/knative-minikube/master/install.sh | bash
