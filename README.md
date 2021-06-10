@@ -1,4 +1,4 @@
-# Setup Knative on Minikube
+# Setup Knative on Docker Desktop
 
 
 TLDR;
