@@ -356,12 +356,5 @@ Some people call this **Serverless** 🎉 🌮 🔥
       }
     ```
 
-
-### Delete Cluster
-
-- Delete the cluster `knative`
-    ```
-    kind delete cluster --name knative
-    ```
 If you have any issues with these instructions [open an new issue](https://github.com/csantanapr/knative-minikube/issues/new) please 🙏🏻
 
