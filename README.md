@@ -4,7 +4,7 @@
 TLDR;
 ```
 kubectl config use-context docker-desktop
-curl -sL https://raw.githubusercontent.com/csantanapr/knative-minikube/master/demo.sh | sh
+curl -sL https://raw.githubusercontent.com/csantanapr/knative-docker-desktop/master/demo.sh | sh
 ```
 
 >Updated and verified on 2021/06/10 with:
