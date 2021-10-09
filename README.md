@@ -8,12 +8,12 @@ kubectl config use-context docker-desktop
 curl -sL https://raw.githubusercontent.com/csantanapr/knative-docker-desktop/main/demo.sh | sh
 ```
 
->Updated and verified on 2021/07/22 with:
->- Knative Serving 0.24.0
->- Knative Kourier 0.24.0
->- Knative Eventing 0.24.1
->- Kubernetes version 1.21.2
->- Docker Desktop version 3.5.2
+>Updated and verified on 2021/10/08 with:
+>- Knative Serving 0.26.0
+>- Knative Kourier 0.26.0
+>- Knative Eventing 0.26.1
+>- Kubernetes version 1.21.4
+>- Docker Desktop version 4.0.1
 
 
 ## Install Docker Desktop
@@ -44,7 +44,7 @@ If you use `kubectx` use `kubectx docker-desktop`
 
 1. Select the version of Knative Serving to install
     ```bash
-    export KNATIVE_VERSION="0.24.0"
+    export KNATIVE_VERSION="0.26.0"
     ```
 1. Install Knative Serving in namespace `knative-serving`
     ```bash
@@ -57,7 +57,7 @@ If you use `kubectx` use `kubectx docker-desktop`
     ```
 1. Select the version of Knative Net Kourier to install
     ```bash
-    export KNATIVE_NET_KOURIER_VERSION="0.24.0"
+    export KNATIVE_NET_KOURIER_VERSION="0.26.0"
     ```
 
 1. Install Knative Layer kourier in namespace `kourier-system`
@@ -196,7 +196,7 @@ Some people call this **Serverless** 🎉 🌮 🔥
 
 1. Select the version of Knative Eventing to install
     ```bash
-    export KNATIVE_EVENTING_VERSION="0.24.1"
+    export KNATIVE_EVENTING_VERSION="0.26.1"
     ```
 1. Install Knative Eventing in namespace `knative-eventing`
     ```bash
