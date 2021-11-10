@@ -8,12 +8,12 @@ kubectl config use-context docker-desktop
 curl -sL https://raw.githubusercontent.com/csantanapr/knative-docker-desktop/main/demo.sh | sh
 ```
 
->Updated and verified on 2021/11/02 with:
+>Updated and verified on 2021/11/10 with:
 >- Knative Serving 1.0.0
 >- Knative Kourier 1.0.0
 >- Knative Eventing 1.0.0
 >- Kubernetes version 1.21.5
->- Docker Desktop version 4.1.1
+>- Docker Desktop version 4.2.0
 
 
 ## Install Docker Desktop
